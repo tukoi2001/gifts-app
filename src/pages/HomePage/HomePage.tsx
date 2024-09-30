@@ -1,10 +1,8 @@
+import HomeContainer from 'containers/HomeContainer';
+
 export default defineComponent({
   name: 'HomePage',
   setup() {
-    return (): JSX.Element => (
-      <div>
-        <font-icon />
-      </div>
-    );
+    return (): JSX.Element => <HomeContainer />;
   },
 });

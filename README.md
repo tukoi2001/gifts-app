@@ -1,8 +1,10 @@
-## Frontend Developer Portfolio
+## Frontend Gifts App
 
 Built with Vue, Element Plus, Firebase, TSX, Typescript
 
 # Introduction
+
+Create a frontend app with Vue, TSX.
 
 # Contact
 
