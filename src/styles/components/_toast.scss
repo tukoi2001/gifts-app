@@ -1,0 +1,44 @@
+.el-notification {
+  padding: 8px;
+  width: 300px;
+  max-width: 300px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  z-index: 99 !important;
+
+  &__title {
+    --el-notification-title-color: #{$black};
+    font-weight: 400;
+  }
+
+  &__success {
+    background-color: $light-green;
+    border-color: $green;
+  }
+
+  &__error {
+    background-color: $light-red;
+    border-color: $red;
+  }
+
+  &__info {
+    background-color: $light-cyan;
+    border-color: $cyan;
+  }
+
+  &__warning {
+    background-color: $light-yellow;
+    border-color: $yellow;
+  }
+
+  &__content {
+    --el-notification-content-font-size: 12px;
+    --el-notification-content-color: #{$black};
+    text-align: left;
+  }
+
+  &__closeBtn {
+    top: 12px !important;
+    right: 8px !important;
+  }
+}

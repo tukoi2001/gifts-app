@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "jsxImportSource": "vue",
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "containers/*": ["src/containers/*"],
+      "components/*": ["src/components/*"],
+      "layouts/*": ["src/layouts/*"],
+      "pages/*": ["src/pages/*"],
+      "types/*": ["src/types/*"],
+      "assets/*": ["src/assets/*"],
+      "styles/*": ["src/styles/*"],
+      "config/*": ["src/config/*"],
+      "api/*": ["src/api/*"],
+      "utils/*": ["src/utils/*"],
+      "enums/*": ["src/enums/*"],
+      "hooks/*": ["src/hooks/*"],
+      "i18n/*": ["src/i18n/*"],
+      "modals/*": ["src/modals/*"],
+      "routers/*": ["src/routers/*"],
+      "stores/*": ["src/stores/*"]
+    }
+  },
+  "include": [
+    "src/*",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
