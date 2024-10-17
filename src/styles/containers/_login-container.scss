@@ -1,0 +1,72 @@
+.login-container {
+  @include flex-box(space-evenly, center);
+  flex-direction: column;
+  height: 100%;
+  padding: 12px;
+  background-image: url('@/assets/images/heart.gif');
+  background-position: bottom center;
+
+  &__subtitle {
+    @include style-text(18px, 400, 26px);
+    color: $primary;
+    text-align: center;
+    margin: 18px 0;
+  }
+
+  &__image {
+    @include flex-box(center);
+  }
+
+  &__google {
+    @include flex-box(center);
+    flex-direction: column;
+    gap: 20px;
+
+    &-title {
+      @include flex-box(center);
+      @include style-text(16px, 600, 22px);
+      color: $white;
+      gap: 8px;
+      background-color: rgb(255 119 141 / 70%);
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    &-subtitle {
+      @include style-text(16px, 400, 21px);
+      color: $black-1;
+      padding: 0 20px;
+      text-align: center;
+    }
+  }
+
+  &__other {
+    @include flex-box(center);
+    flex-direction: column;
+    position: relative;
+
+    &-title {
+      @include flex-box(center);
+      @include style-text(16px, 600, 22px);
+      color: $white;
+      gap: 8px;
+      background-color: rgb(255 119 141 / 70%);
+      padding: 12px 24px 12px 60px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    &-description {
+      @include style-text(12px, 500, 18px);
+      margin-bottom: 8px;
+      margin-top: -10px;
+      color: rgb(255 119 141 / 70%);
+    }
+
+    #gift-icon {
+      left: 30px;
+      top: 37px;
+    }
+  }
+}

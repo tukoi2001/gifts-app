@@ -1,0 +1,46 @@
+#gift-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: giftAnimation 0.5s ease-in-out infinite;
+
+  .st0 {
+    fill: #3d3d3d;
+  }
+
+  .st1 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #ff6666;
+  }
+
+  .st2 {
+    fill: #3aace8;
+  }
+
+  .st3 {
+    fill: #ff6666;
+  }
+}
+
+@keyframes giftAnimation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  2.5% {
+    transform: translate(-50%, -50%) rotate(5deg) scale(1.1);
+  }
+  5% {
+    transform: translate(-50%, -50%) rotate(0) scale(1.1);
+  }
+  7.5% {
+    transform: translate(-50%, -50%) rotate(5deg) scale(1.1);
+  }
+  10% {
+    transform: translate(-50%, -50%) rotate(0) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+}

@@ -1,0 +1,41 @@
+.select-language {
+  width: 60px;
+  background: rgba(255, 181, 189, 0.43);
+  padding: 8px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.select-language-trigger {
+  @include flex-box;
+  gap: 8px;
+
+  &__flag {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  &__country {
+    @include style-text(13px, 600, 20px);
+  }
+}
+
+.select-language-content {
+  &__item {
+    @include flex-box(flex-start);
+    gap: 8px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  &__flag {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  &__country {
+    @include style-text(12px, 400, 18px);
+  }
+}

@@ -1,0 +1,14 @@
+.popover-component {
+  &.el-popover {
+    font-size: 12px;
+    color: $primary;
+  }
+}
+
+.el-tooltip {
+  &__trigger {
+    font-size: 14px;
+    line-height: 21px;
+    color: $primary;
+  }
+}
