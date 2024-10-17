@@ -1,3 +1,5 @@
 import type { State } from './types';
 
-export default (): State => ({});
+export default (): State => ({
+  currentUser: null,
+});

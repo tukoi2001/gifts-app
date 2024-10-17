@@ -1,4 +1,11 @@
 {
   "vietnamese": "Vietnamese",
-  "english": "English"
+  "english": "English",
+  "login_success": "Đăng nhập thành công",
+  "login_fail": "Không thể đăng nhập, vui lòng thử lại",
+  "login_title": "Cùng tạo món tặng đặc biệt nào!",
+  "login_description": "Đăng nhập để lưu giữ những khoảnh khắc tuyệt vời nhất của bạn.",
+  "login_with_google": "Đăng nhập bằng Google",
+  "or": "Hoặc",
+  "skip": "Bỏ qua"
 }

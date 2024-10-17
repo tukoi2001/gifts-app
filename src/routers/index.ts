@@ -1,9 +1,19 @@
 import { RootRouter } from 'enums/app';
-import HomePage from 'pages/HomePage';
+import LoginPage from 'pages/LoginPage';
+
+const HomePage = () => import('pages/HomePage');
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
+    name: RootRouter.LOGIN_PAGE,
+    component: LoginPage,
+    meta: {
+      title: RootRouter.LOGIN_PAGE,
+    },
+  },
+  {
+    path: '/home',
     name: RootRouter.HOME_PAGE,
     component: HomePage,
     meta: {

@@ -76,6 +76,7 @@ export default defineConfig(({ mode }) => {
               'isArray',
               'join',
               'forEach',
+              'map',
             ],
           },
           {

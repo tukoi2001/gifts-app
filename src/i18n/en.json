@@ -1,4 +1,11 @@
 {
   "vietnamese": "Vietnamese",
-  "english": "English"
+  "english": "English",
+  "login_success": "Login successful",
+  "login_fail": "Unable to log in, please try again",
+  "login_title": "Let's create a special gift!",
+  "login_description": "Log in to save your most wonderful moments.",
+  "login_with_google": "Log in with Google",
+  "or": "Or",
+  "skip": "Skip"
 }
